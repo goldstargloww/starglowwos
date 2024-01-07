@@ -1,12 +1,67 @@
+@font-face {
+  font-family: 'FairfaxHD';
+  src: url('FairfaxHD.ttf');
+}
+
 .main {
-  background-color: #050505;
   color: white;
-  height: 99.8vh;
-  margin: 0px;
+  min-height: 99.8vh;
   padding: 1px;
+  font-family: 'FairfaxHD';
+  max-width: 1020px;
+  margin: 0 auto;
 }
 
 body {
-  background-color: black;
+  background-color: #050505;
   margin: 0px 10vw;
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2.25em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+h6 {
+  font-size: 1.25em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0.5em 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+a:link {
+  color: #ff9
+}
+
+a:visited {
+  color: #fA7
+}
+
+a:hover, a:active {
+  color: #fC7
 }
