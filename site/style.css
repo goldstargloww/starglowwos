@@ -3,6 +3,10 @@
   src: url('FairfaxHD.ttf');
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .main {
   color: white;
   min-height: 99.8vh;
@@ -20,6 +24,12 @@ body {
 
 .center {
   text-align: center;
+}
+
+.button {
+  background-color: black;
+  box-shadow: #FFF1 0px 0px 5px;
+  padding: 1em;
 }
 
 h1 {
@@ -54,14 +64,67 @@ p {
   font-size: 1em;
 }
 
+a {
+  text-decoration: none;
+}
+
 a:link {
-  color: #ff9
+  color: #ff9;
 }
 
 a:visited {
-  color: #fA7
+  color: #fA7;
 }
 
 a:hover, a:active {
-  color: #fC7
+  color: #fC7;
+  cursor: pointer;
+}
+
+div.profile {
+  float: left;
+  background-color: black;
+  width: 45%;
+  margin: 2.5%;
+  padding: 1em;
+  border-radius: 2.5%
+}
+
+@media only screen and (max-width: 600px) {
+  div.profile {
+    width: 100%;
+  }
+}
+
+div.profile > img {
+  width: 100%;
+  border-radius: 2.5%;
+}
+
+.art-credit {
+  font-size: 0.5em;
+  color: #fff5;
+  margin: 0.5em;
+  padding: 0;
+}
+
+.art-credit > a:link {
+  color: #ff95;
+}
+
+.art-credit > a:visited {
+  color: #fA75;
+}
+
+.art-credit > a:hover, a:active {
+  color: #fC75;
+  cursor: pointer;
+}
+
+.pronouns {
+  margin: 0.5em;
+}
+
+.name {
+  margin: 0.25em;
 }
