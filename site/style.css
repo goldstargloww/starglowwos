@@ -81,13 +81,54 @@ a:hover, a:active {
   cursor: pointer;
 }
 
+div.profile-small {
+  float: left;
+  background-color: black;
+  width: 20%;
+  margin: 2.5%;
+  padding: 1em;
+  border-radius: 2.5%;
+}
+
+.profile-small > .name {
+  font-size: 1.5em;
+}
+
+.profile-small > .pronouns {
+  font-size: 0.6em;
+}
+
+.profile-small > .art-credit {
+  font-size: 0.5em;
+}
+
+@media only screen and (max-width: 1250px) {
+  div.profile-small {
+    width: 28%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  div.profile-small {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  div.profile-small {
+    width: 100%;
+  }
+}
+
+
+
 div.profile {
   float: left;
   background-color: black;
   width: 45%;
   margin: 2.5%;
   padding: 1em;
-  border-radius: 2.5%
+  border-radius: 2.5%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -96,7 +137,7 @@ div.profile {
   }
 }
 
-div.profile > img {
+div.profile > img, div.profile-small > img {
   width: 100%;
   border-radius: 2.5%;
 }
@@ -123,6 +164,14 @@ div.profile > img {
 
 .pronouns {
   margin: 0.5em;
+  white-space: nowrap;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .pronouns {
+    font-size: 1em;
+  }
 }
 
 .name {
