@@ -32,6 +32,8 @@ button {
   padding: 0.75em;
   border-style: none;
   border-radius: 0.5em;
+  color: white;
+  font-family: 'FairfaxHD';
 }
 
 button:hover {
