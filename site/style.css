@@ -115,10 +115,26 @@ div.profile-small {
 .profile-small > .name > a > .txt-tp {
   font-size: 0.53972em;
 }
+.profile-small > .name > .txt-sp,
+.profile-small > .name > a > .txt-sp {
+  font-size: 3em;
+}
+.profile > .name > .txt-sp,
+.profile > .name > a > .txt-sp {
+  font-size: 0.86018em;
+}
+.profile-small > .name > .txt-sp,
+.profile-small > .name > a > .txt-sp {
+  font-size: 0.47972em;
+}
 
 .profile-small > .pronouns > .txt-tp,
 .profile-small > .pronouns > a > .txt-tp {
   font-size: 0.9em;
+}
+.profile-small > .pronouns > .txt-sp,
+.profile-small > .pronouns > a > .txt-sp {
+  font-size: 0.67em;
 }
 
 @media only screen and (max-width: 1285px) {
@@ -130,6 +146,16 @@ div.profile-small {
   .profile-small > .name > a > .txt-tp {
     font-size: 0.70527em;
   }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.61416em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 0.8em;
+  }
 }
 
 @media only screen and (max-width: 1115px) {
@@ -137,6 +163,16 @@ div.profile-small {
   .profile-small > .name > .txt-tp,
   .profile-small > .name > a > .txt-tp {
     font-size: 0.56527em;
+  }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.49305em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 0.69em;
   }
 }
 
@@ -149,12 +185,32 @@ div.profile-small {
   .profile-small > .name > a > .txt-tp {
     font-size: 0.80416em;
   }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.69972em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 0.95em;
+  }
 }
 
 @media only screen and (max-width: 775px) {
   .profile-small > .name > .txt-tp,
   .profile-small > .name > a > .txt-tp {
     font-size: 0.56527em;
+  }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.49305em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 0.69em;
   }
 }
 
@@ -167,12 +223,32 @@ div.profile-small {
   .profile-small > .name > a > .txt-tp {
     font-size: 0.9em;
   }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.83361em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 1em;
+  }
 }
 
 @media only screen and (max-width: 400px) {
   .profile-small > .name > .txt-tp,
   .profile-small > .name > a > .txt-tp {
     font-size: 0.57972em;
+  }
+
+  .profile-small > .name > .txt-sp,
+  .profile-small > .name > a > .txt-sp {
+    font-size: 0.49749em;
+  }
+
+  .profile-small > .pronouns > .txt-sp,
+  .profile-small > .pronouns > a > .txt-sp {
+    font-size: 0.69em;
   }
 }
 
