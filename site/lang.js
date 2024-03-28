@@ -20,6 +20,7 @@ function tokiponaLang() {
   isEnglish = false;
   isTokiPona = true;
   isSitelenPona = false;
+  console.log("toki pona");
 }
 function englishLang() {
   for(let en of document.querySelectorAll('.txt-en'))
@@ -37,6 +38,7 @@ function englishLang() {
   isEnglish = true;
   isTokiPona = false;
   isSitelenPona = false;
+  console.log("english");
 }
 function sitelenponaLang() {
   for(let en of document.querySelectorAll('.txt-en'))
@@ -54,6 +56,7 @@ function sitelenponaLang() {
   isEnglish = false;
   isTokiPona = false;
   isSitelenPona = true;
+  console.log("sitelen pona");
 }
 
 window.onload = function () {
