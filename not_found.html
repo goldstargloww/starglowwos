@@ -6,14 +6,35 @@
     <title>[sgOS] page not found</title>
     <link href="/style.css" rel="stylesheet" type="text/css" media="all">
     <link href="/site/style.css" rel="stylesheet" type="text/css" media="all"> <!-- this guy's only for the local copy -->
+    <script src="/lang.js"></script>
+    <script src="/site/lang.js"></script> <!-- this guy's only for the local copy -->
   </head>
   <body>
+    
+    <button onclick="toggleLang();" class="float">
+      <span class="txt-en">language</span>
+      <span class="txt-tp">toki</span>
+      <span class="txt-sp">󱥬</span>
+    </button>
+
     <div class="main">
-      <h1 class="center">page not found</h1>
-      <p class="center">the page you're looking for isn't here.</p>
+      <h1 class="center">
+        <span class="txt-en">page not found</span>
+        <span class="txt-tp">lipu ni li lon ala</span>
+        <span class="txt-sp">󱤪󱥁󱤧󱤬󱤂</span>
+      </h1>
+      <p class="center">
+        <span class="txt-en">the page you're looking for isn't here.</span>
+        <span class="txt-tp">lipu pi wile sina li lon ma ni ala.</span>
+        <span class="txt-sp">󱤪󱥍󱦗󱥷󱥞󱦘󱤧󱤬󱤰󱥁󱤂</span>
+      </p>
       <p class="center">
         <br>
-        <button onclick="javascript:history.back()">go back</button>
+        <button onclick="javascript:history.back()">
+          <span class="txt-en">go back</span>
+          <span class="txt-tp">o tawa weka</span>
+          <span class="txt-sp">󱥄󱥩󱥶</span>
+        </button>
       </p>
       
     </div>

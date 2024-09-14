@@ -40,8 +40,12 @@ button:hover {
   background-color: #0F0F0F;
 }
 
-button.center {
-  margin: 1em 50%;
+button.float {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  text-align: center;
+  width: 8em;
 }
 
 h1 {
