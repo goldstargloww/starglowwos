@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'FairfaxHD';
-  src: url('fonts/FairfaxHD.ttf');
+  src: url('/starglowwos/assets/fonts/FairfaxHD.ttf');
 }
 
 * {
@@ -12,14 +12,15 @@
   min-height: 99.8vh;
   padding: 1px;
   font-family: 'FairfaxHD';
-  max-width: 1020px;
+  max-width: 95%;
   margin: 0 auto;
 }
 
 body {
-  background-color: #050505;
+  background-color: #190830;
   margin: 0px 10vw;
   font-size: 20px;
+  color: white;
 }
 
 .center {
@@ -27,7 +28,7 @@ body {
 }
 
 button {
-  background-color: black;
+  background-color: #0c0219;
   box-shadow: #FFF1 0px 0px 5px;
   padding: 0.75em;
   border-style: none;
@@ -37,7 +38,7 @@ button {
 }
 
 button:hover {
-  background-color: #0F0F0F;
+  background-color: #110323;
 }
 
 button.float {
@@ -51,27 +52,21 @@ button.float {
 h1 {
   font-size: 2.5em;
 }
-
 h2 {
   font-size: 2.25em;
 }
-
 h3 {
   font-size: 2em;
 }
-
 h4 {
   font-size: 1.75em;
 }
-
 h5 {
   font-size: 1.5em;
 }
-
 h6 {
   font-size: 1.25em;
 }
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0.5em 0;
 }
@@ -94,202 +89,42 @@ a:hover, a:active {
   cursor: pointer;
 }
 
-div.profile-small {
-  float: left;
-  background-color: black;
-  width: 20%;
-  margin: 2.5%;
-  padding: 1em;
-  border-radius: 2.5%;
+div.profiles-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
-.profile-small > .name {
-  font-size: 1.5em;
+.profile {
+  background-color: #0c0219;
+  border-radius: 8px;
+  padding: 8px;
+  width: 216px;
+  margin: 8px;
 }
 
-.profile-small > .pronouns {
-  font-size: 0.6em;
-}
-
-.profile-small > .art-credit {
-  font-size: 0.5em;
-}
-
-.profile-small .name .txt-tp {
-  font-size: 0.53972em;
-}
-.profile-small .name .txt-sp {
-  font-size: 3em;
-}
-.profile .name .txt-sp {
-  font-size: 0.86018em;
-}
-.profile-small .name .txt-sp {
-  font-size: 0.47972em;
-}
-
-.profile-small .pronouns .txt-tp {
-  font-size: 0.9em;
-}
-.profile-small .pronouns .txt-sp {
-  font-size: 0.67em;
-}
-
-@media only screen and (max-width: 1285px) {
-  div.profile-small {
-    width: 28%;
-  }
-
-  .profile-small .name .txt-tp {
-    font-size: 0.70527em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.61416em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 0.8em;
-  }
-}
-
-@media only screen and (max-width: 1115px) {
-
-  .profile-small .name .txt-tp {
-    font-size: 0.56527em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.49305em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 0.69em;
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  div.profile-small {
-    width: 45%;
-  }
-
-  .profile-small .name .txt-tp {
-    font-size: 0.80416em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.69972em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 0.95em;
-  }
-}
-
-@media only screen and (max-width: 775px) {
-  .profile-small .name .txt-tp {
-    font-size: 0.56527em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.49305em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 0.69em;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  div.profile-small {
-    width: 100%;
-  }
-
-  .profile-small > .name .txt-tp {
-    font-size: 0.9em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.83361em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 1em;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  .profile-small .name .txt-tp {
-    font-size: 0.57972em;
-  }
-
-  .profile-small .name .txt-sp {
-    font-size: 0.49749em;
-  }
-
-  .profile-small .pronouns .txt-sp {
-    font-size: 0.69em;
-  }
-}
-
-
-
-div.profile {
-  float: left;
-  background-color: black;
-  width: 45%;
-  margin: 2.5%;
-  padding: 1em;
-  border-radius: 2.5%;
-}
-
-@media only screen and (max-width: 600px) {
-  div.profile {
-    width: 100%;
-  }
-}
-
-div.profile > img, div.profile-small > img {
-  width: 100%;
-  border-radius: 2.5%;
-}
-
-.art-credit {
-  font-size: 0.5em;
-  color: #fff5;
-  margin: 0.5em;
-  padding: 0;
-}
-
-.art-credit > a:link {
-  color: #ff95;
-}
-
-.art-credit > a:visited {
-  color: #fA75;
-}
-
-.art-credit > a:hover, .art-credit > a:active {
-  color: #fC75;
-  cursor: pointer;
-}
-
-.pronouns {
-  margin: 0.5em;
-  white-space: nowrap;
-  font-size: 100%;
-}
-
-@media only screen and (max-width: 600px) {
-  .pronouns {
-    font-size: 1em;
-  }
+.profile img {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
+  border-radius: 8px;
 }
 
 .name {
-  margin: 0.25em;
+  text-align: center;
+  font-size: 1.25em;
 }
 
-.break {
-  word-break: break-all
+.pronouns {
+  text-align: center;
+  font-size: 1em;
+}
+
+.art-credit {
+  text-align: center;
+  font-size: 0.5em;
+}
+
+.profile p {
+  margin: 5px 0;
 }
